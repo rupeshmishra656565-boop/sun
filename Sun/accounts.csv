@@ -1,0 +1,42 @@
+﻿first_name,last_name,email,username,password,state,city,address,zip,phone,dob,gender
+Gopal,Pandit,gopal.pandit@example.com,gopal_p,Pandit$Gopal,Gujarat,Rajkot,99 Kalawad Road,360005,9867970615,1986-01-01,M
+Harish,Kak,harish.kak@example.com,harish_k,Kak*Harish,Rajasthan,Jaipur,12 MI Road,302001,9878081726,1986-01-01,M
+Hemant,Handoo,hemant.handoo@example.com,hemant_h,Handoo@Hemant,Rajasthan,Jaipur,34 Malviya Nagar,302017,9889192837,1986-01-01,M
+Harsh,Tikoo,harsh.tikoo@example.com,harsh_t,Tikoo!Harsh,Rajasthan,Jaipur,55 Vaishali Nagar,302021,9891203948,1986-01-01,M
+Hitesh,Bakshi,hitesh.bakshi@example.com,hitesh_b,Bakshi#Hitesh,Rajasthan,Jaipur,89 Mansarovar,302020,9812314059,1986-01-01,M
+Ishan,Chatterjee,ishan.chatterjee@example.com,ishan_c,Chatterjee$Ishan,Rajasthan,Jodhpur,22 Sardar Pura,342003,9823425160,1986-01-01,M
+Inder,Banerjee,inder.banerjee@example.com,inder_b,Banerjee*Inder,Rajasthan,Jodhpur,11 Ratanada,342011,9834536271,1986-01-01,M
+Imran,Mukherjee,imran.mukherjee@example.com,imran_m,Mukherjee@Imran,Rajasthan,Udaipur,45 Fatehpura,313001,9845647382,1986-01-01,M
+Jatin,Bhattacharya,jatin.bhattacharya@example.com,jatin_b,Bhattacharya!Jatin,Rajasthan,Udaipur,67 Hiran Magri,313002,9856758493,1986-01-01,M
+Jignesh,Bose,jignesh.bose@example.com,jignesh_b,Bose#Jignesh,Rajasthan,Kota,88 Talwandi,324005,9867869504,1986-01-01,M
+Jyotir,Datta,jyotir.datta@example.com,jyotir_d,Datta$Jyotir,Rajasthan,Kota,99 Rajiv Gandhi Nagar,324005,9878970615,1986-01-01,M
+Jainam,Ghosh,jainam.ghosh@example.com,jainam_g,Ghosh*Jainam,Uttar Pradesh,Lucknow,12 Hazratganj,226001,9889081726,1986-01-01,M
+Jivan,Guha,jivan.guha@example.com,jivan_g,Guha@Jivan,Uttar Pradesh,Lucknow,34 Gomti Nagar,226010,9891192837,1986-01-01,M
+Jigar,Mitra,jigar.mitra@example.com,jigar_m,Mitra!Jigar,Uttar Pradesh,Lucknow,55 Aliganj,226024,9812203948,1986-01-01,M
+Kamal,Sen,kamal.sen@example.com,kamal_s,Sen#Kamal,Uttar Pradesh,Kanpur,89 Mall Road,208001,9823314059,1986-01-01,M
+Kalyan,Pal,kalyan.pal@example.com,kalyan_p,Pal$Kalyan,Uttar Pradesh,Kanpur,22 Swaroop Nagar,208002,9834425160,1986-01-01,M
+Karan,Roy,karan.roy@example.com,karan_r,Roy*Karan,Uttar Pradesh,Kanpur,11 Kakadeo,208025,9845536271,1986-01-01,M
+Kapil,Sinha,kapil.sinha@example.com,kapil_s,Sinha@Kapil,Uttar Pradesh,Agra,45 Tajganj,282001,9856647382,1986-01-01,M
+Kavi,Sengupta,kavi.sengupta@example.com,kavi_s,Sengupta!Kavi,Uttar Pradesh,Agra,67 Sanjay Place,282002,9867758493,1986-01-01,M
+Ketan,Dasgupta,ketan.dasgupta@example.com,ketan_d,Dasgupta#Ketan,Uttar Pradesh,Varanasi,88 Lanka,221005,9878869504,1986-01-01,M
+Kiran,Mohanty,kiran.mohanty@example.com,kiran_m,Mohanty$Kiran,Uttar Pradesh,Varanasi,99 Sigra,221010,9889970615,1986-01-01,M
+Kunal,Panda,kunal.panda@example.com,kunal_p,Panda*Kunal,West Bengal,Kolkata,12 Park Street,700016,9891081726,1986-01-01,M
+Krunal,Sahoo,krunal.sahoo@example.com,krunal_s,Sahoo@Krunal,West Bengal,Kolkata,34 Salt Lake,700091,9812192837,1986-01-01,M
+Krish,Rout,krish.rout@example.com,krish_r,Rout!Krish,West Bengal,Kolkata,55 New Town,700156,9823203948,1986-01-01,M
+Kushal,Behera,kushal.behera@example.com,kushal_b,Behera#Kushal,West Bengal,Kolkata,89 Ballygunge,700019,9834314059,1986-01-01,M
+Karthik,Nayak,karthik.nayak@example.com,karthik_n,Nayak$Karthik,West Bengal,Siliguri,22 Sevoke Road,734001,9845425160,1986-01-01,M
+Lalit,Pradhan,lalit.pradhan@example.com,lalit_p,Pradhan*Lalit,West Bengal,Siliguri,11 Hakim Para,734001,9856536271,1986-01-01,M
+Lakshya,Patra,lakshya.patra@example.com,lakshya_p,Patra@Lakshya,West Bengal,Durgapur,45 City Center,713216,9867647382,1986-01-01,M
+Lokesh,Barik,lokesh.barik@example.com,lokesh_b,Barik!Lokesh,West Bengal,Durgapur,67 Benachity,713213,9878758493,1986-01-01,M
+Madhav,Mahapatra,madhav.mahapatra@example.com,madhav_m,Mahapatra#Madhav,West Bengal,Asansol,88 GT Road,713303,9889869504,1986-01-01,M
+Mahesh,Bhowmick,mahesh.bhowmick@example.com,mahesh_b,Bhowmick$Mahesh,West Bengal,Asansol,99 Burnpur,713325,9891970615,1986-01-01,M
+Manish,Biswas,manish.biswas@example.com,manish_b,Biswas*Manish,Telangana,Hyderabad,12 Banjara Hills,500034,9812081726,1986-01-01,M
+Manas,Nath,manas.nath@example.com,manas_n,Nath@Manas,Telangana,Hyderabad,34 Jubilee Hills,500033,9823192837,1986-01-01,M
+Mohit,Nandi,mohit.nandi@example.com,mohit_n,Nandi!Mohit,Telangana,Hyderabad,55 Hitec City,500081,9834203948,1986-01-01,M
+Mayank,Sarma,mayank.sarma@example.com,mayank_s,Sarma#Mayank,Telangana,Hyderabad,89 Gachibowli,500032,9845314059,1986-01-01,M
+Mukesh,Bordoloi,mukesh.bordoloi@example.com,mukesh_b,Bordoloi$Mukesh,Telangana,Warangal,22 Hanamkonda,506001,9856425160,1986-01-01,M
+Namit,Borah,namit.borah@example.com,namit_b,Borah*Namit,Telangana,Warangal,11 Kazipet,506004,9867536271,1986-01-01,M
+Nandan,Phukan,nandan.phukan@example.com,nandan_p,Phukan@Nandan,Telangana,Nizamabad,45 Khaleelwadi,503001,9878647382,1986-01-01,M
+Nitin,Gogoi,nitin.gogoi@example.com,nitin_g,Gogoi!Nitin,Telangana,Nizamabad,67 Pragathi Nagar,503002,9889758493,1986-01-01,M
+Naveen,Hazarika,naveen.hazarika@example.com,naveen_h,Hazarika#Naveen,Telangana,Karimnagar,88 Jyothi Nagar,505001,9891869504,1986-01-01,M
+Nikhil,Saikia,nikhil.saikia@example.com,nikhil_s,Saikia$Nikhil,Telangana,Karimnagar,99 Vidyanagar,505001,9812970615,1986-01-01,M
