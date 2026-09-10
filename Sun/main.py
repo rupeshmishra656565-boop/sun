@@ -9,7 +9,6 @@ TARGET_URL = "https://signup.sunpalacecasino.eu/"
 CSV_FILENAME = "accounts.csv"
 EMAILS_FILENAME = "emails.txt"
 COMPLETED_CSV_FILENAME = "registered_accounts.csv"
-PROXIES_FILENAME = "Webshare 10 proxies.txt"
 
 def load_accounts(filename):
     accounts = []
@@ -33,19 +32,6 @@ def load_emails(filename):
                     emails.append(line.strip())
         print(f"Successfully loaded {len(emails)} emails from {filename}.")
         return emails
-    except FileNotFoundError:
-        print(f"Error: Could not find {filename}.")
-        return []
-
-def load_proxies(filename):
-    proxies = []
-    try:
-        with open(filename, mode='r', encoding='utf-8') as file:
-            for line in file:
-                if line.strip():
-                    proxies.append(line.strip())
-        print(f"Successfully loaded {len(proxies)} proxies from {filename}.")
-        return proxies
     except FileNotFoundError:
         print(f"Error: Could not find {filename}.")
         return []
@@ -183,16 +169,12 @@ def register_account(page, account, auto_email):
 def main():
     accounts = load_accounts(CSV_FILENAME)
     emails = load_emails(EMAILS_FILENAME)
-    proxies = load_proxies(PROXIES_FILENAME)
    
     if not accounts:
         print("No accounts loaded. Exiting.")
         return
     if not emails:
         print("No emails loaded. Please ensure emails.txt exists. Exiting.")
-        return
-    if not proxies:
-        print(f"No proxies loaded. Please ensure {PROXIES_FILENAME} exists. Exiting.")
         return
 
     with sync_playwright() as p:
@@ -201,34 +183,13 @@ def main():
             args=['--start-maximized']
         )
         try:
-            proxy_index = 0
             while accounts and emails:
                 current_account = accounts.pop(0)
                 current_email = emails.pop(0)
 
-                # Select a proxy using Round-Robin
-                current_proxy_line = proxies[proxy_index % len(proxies)]
-                proxy_index += 1
-                
-                # Parse the proxy line: IP:PORT:USER:PASS
-                proxy_parts = current_proxy_line.split(':')
-                
-                if len(proxy_parts) == 4:
-                    host, port, username, password = proxy_parts
-                    proxy_config = {
-                        "server": f"http://{host}:{port}",
-                        "username": username,
-                        "password": password
-                    }
-                    print(f"Using proxy: {host}:{port}")
-                else:
-                    print(f"[!] Invalid proxy format on line: {current_proxy_line}. Skipping account.")
-                    continue
-
-                # Route Playwright traffic through the chosen Webshare Proxy
+                # Route Playwright traffic through standard local connection
                 context = browser.new_context(
-                    no_viewport=True,
-                    proxy=proxy_config
+                    no_viewport=True
                 )
                 page = context.new_page()
                
